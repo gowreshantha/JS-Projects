@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Rubik+Beastly&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}

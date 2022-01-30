@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Rubik+Beastly&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 31px;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.countdown-container{
+    display: flex;
+}
