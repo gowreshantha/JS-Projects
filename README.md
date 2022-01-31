@@ -1,3 +1,4 @@
 # JS-Projects
 
-My first JS Projects
+Project 1: Countdown Timer
+Description : Displays - Days Hours Minutes Seconds, left for new year
