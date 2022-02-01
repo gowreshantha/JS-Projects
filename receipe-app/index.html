@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Receipe app</title>
+        <!--copied from font awesome cdn website-->
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer>
+            /*
+            The defer attribute is a boolean attribute.
+            If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
+            Note: The defer attribute is only for external scripts (should only be used if the src attribute is present).
+            */
+        </script>
+    </head>
+    <body>
+        <div class="mobile-container">
+            <header>
+                <input type="text">
+                <!--copied from https://fontawesome.com/v5.15/icons/search?style=solid-->
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+            <div class="fav-container">
+                <h3>Favorite Meals</h3>
+                <ul class="fav-meals">
+                    <li>
+                        <img src="https://www.thespruceeats.com/thmb/yLyKgqIj6-SLt9gJkgkjfIZtfC0=/4300x2867/filters:no_upscale():max_bytes(150000):strip_icc()/chole-chickpea-curry-1957946-hero-01-cddf957cc78d4032ba29ec2adbc05a97.jpg" alt="">
+                        <span>Dosa</span>
+                    </li>
+                    <li>
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tgi-fridays-potato-skins-1576689702.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" alt="">
+                        <span>Dolomm</span>
+                    </li>
+                    <li>
+                        <img src="https://static01.nyt.com/images/2021/12/17/t-magazine/17tmag-25-dishes-slide-T0V5/17tmag-25-dishes-slide-T0V5-mobileMasterAt3x.jpg" alt="">
+                        <span>Komba</span>
+                    </li>
+                    <li>
+                        <img src="https://www.thespruceeats.com/thmb/yLyKgqIj6-SLt9gJkgkjfIZtfC0=/4300x2867/filters:no_upscale():max_bytes(150000):strip_icc()/chole-chickpea-curry-1957946-hero-01-cddf957cc78d4032ba29ec2adbc05a97.jpg" alt="">
+                        <span>Dosa</span>
+                    </li>
+                    <li>
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tgi-fridays-potato-skins-1576689702.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" alt="">
+                        <span>Dolomm</span>
+                    </li>
+                    <li>
+                        <img src="https://static01.nyt.com/images/2021/12/17/t-magazine/17tmag-25-dishes-slide-T0V5/17tmag-25-dishes-slide-T0V5-mobileMasterAt3x.jpg" alt="">
+                        <span>Komba</span>
+                    </li>
+                    <li>
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tgi-fridays-potato-skins-1576689702.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" alt="">
+                        <span>Dolomm</span>
+                    </li>
+                    <li>
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tgi-fridays-potato-skins-1576689702.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" alt="">
+                        <span>Dolomm</span>
+                    </li>
+                    <li>
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tgi-fridays-potato-skins-1576689702.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*" alt="">
+                        <span>Dolomm</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="meals">
+                <span class="random">
+                    Random Recipe
+                </span>
+                <div class="meal">
+                    <div class="meal-header">
+                        <img 
+                            src="https://assets.bonappetit.com/photos/5f35a250b4b3538eb4dc4cec/5:4/w_2520,h_2016,c_limit/Basically-Chitranna03.jpg" 
+                            alt="">
+                    </div>
+                    <div class="meal-body">
+                        <h4>Veggies</h4>
+                        <button>
+                            <!--external css copied i.e imported from font awesome-->
+                            <i class="fa fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
